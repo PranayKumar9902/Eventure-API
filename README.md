@@ -14,13 +14,14 @@ Welcome to the TicketBooking Backend project! This repository contains the backe
 
 ### 🔐 User Authentication
 
-- **Register**: Users can register by sending a POST request to `/api/register` with their details.
-- **Login**: Users can log in by sending a POST request to `/api/login` with their credentials.
+- **Register**: Users can register by sending a POST request to `/api/user/register` with their details.
+- **Login**: Users can log in by sending a POST request to `/api/user/login` with their credentials.
 
 ### 🎫 Ticket Booking
 
-- **Book Ticket**: Users can book tickets by sending a POST request to `/api/book` with event and ticket details.
-- **Cancel Ticket**: Users can cancel tickets by sending a DELETE request to `/api/cancel/{ticket_id}`.
+- **Book Ticket**: Users can book tickets by sending a POST request to `/api/tickets` with event and ticket details.
+- **Get Tickets**: Users can get tickets by sending a GET request to `/api/tickets/{user_id}` with their user_id.
+- **Validate Ticket**: Users can get tickets by sending a GET request to `/api/tickets/validate` with their user_id and ticket_id details.
 
 ### 📅 Event Management
 
