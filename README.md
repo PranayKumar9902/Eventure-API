@@ -40,8 +40,8 @@ Welcome to the TicketBooking Backend project! This repository contains the backe
 
 1. **Clone the repository**
     ```sh
-    git clone https://github.com/yourusername/TicketBooking.git
-    cd TicketBooking/backend-go
+    git clone https://github.com/PranayKumar9902/Eventure-API.git
+    cd TicketBooking/backend
     ```
 
 2. **Set up environment variables**
